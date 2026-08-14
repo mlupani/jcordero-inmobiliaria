@@ -41,7 +41,7 @@ export function Logo ({ variant = 'light', className }: LogoProps) {
       <span className='leading-none'>
         <span
           className={cn(
-            'block font-serif text-[1.35rem] tracking-tight',
+            'block whitespace-nowrap font-serif text-[1.35rem] tracking-tight',
             dark ? 'text-ivory' : 'text-petrol'
           )}
         >

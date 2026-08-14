@@ -62,9 +62,10 @@ export function Header () {
             href={generalWhatsAppUrl()}
             target='_blank'
             rel='noopener noreferrer'
-            className='btn btn-whatsapp hidden !min-h-10 !px-4 !text-[0.72rem] lg:inline-flex'
+            className='inline-flex shrink-0 items-center rounded-full bg-whatsapp px-3 py-1.5 text-[0.68rem] font-semibold tracking-wide text-white uppercase transition-colors hover:bg-whatsapp-deep'
           >
-            Consultar por WhatsApp
+            <span className='lg:hidden'>WhatsApp</span>
+            <span className='hidden lg:inline'>Consultar por WhatsApp</span>
           </a>
           <button
             type='button'
